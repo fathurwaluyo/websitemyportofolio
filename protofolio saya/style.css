@@ -1,0 +1,135 @@
+.body {
+    background-image: url(ba.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-logo {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+nav .nav-links {
+   display: flex; 
+   list-style: none;
+}
+
+.nav-links .links a {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    padding: 10px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: black;
+    background: #0ef;
+    border-radius: 10%;
+    box-shadow: 0 0 20px #0ef;
+} 
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 70px);
+    gap: 50px;
+    padding: 50px 5%;
+}
+
+.home-detail {
+    margin-top: 0;
+}
+
+.home-detail h1 {
+    font-size: 70px;
+    font-family: serif;
+    line-height: 1.2;
+    font-weight: 600;
+    color: white;
+}
+
+.home-detail h1 span {
+    color: #0ef;
+}
+
+.home-detail h2 {
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+
+.home-detail p {
+    margin: 15px 0 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.home-img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 1px 41px 7px #0ef;
+-webkit-box-shadow: 1px 1px 41px 7px #0ef;
+-moz-box-shadow: 1px 1px 41px 7px #0ef;
+    border-radius: 50%;
+}
+
+.home-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.social-media a {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: #0ef;
+    color:black;
+    box-shadow: 0 0 20px #0ef;
+}
+
